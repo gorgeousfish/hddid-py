@@ -5,17 +5,18 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "hddid"
 version = "0.1.0"
-description = "Paper-first research-alpha Python implementation of the HDDID estimator."
+description = "Doubly robust semiparametric difference-in-differences estimators with high-dimensional data."
 requires-python = ">=3.10"
 readme = "README.md"
 license = "AGPL-3.0-only"
 license-files = ["LICENSE"]
 authors = [
-    {name = "Xuanyu Cai", email = "xuanyuCAI@outlook.com"},
-    {name = "Wenli Xu", email = "wlxu@cityu.edu.mo"},
+    {name = "Xuanyu Cai"},
+    {name = "Wenli Xu"},
 ]
 maintainers = [
-    {name = "Xuanyu Cai", email = "xuanyuCAI@outlook.com"},
+    {name = "Xuanyu Cai"},
+    {name = "Wenli Xu"},
 ]
 keywords = [
     "causal inference",
@@ -28,7 +29,7 @@ keywords = [
 ]
 dependencies = ["numpy>=1.24", "scipy>=1.10", "PyYAML>=6.0"]
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Science/Research",
     "Topic :: Scientific/Engineering :: Mathematics",
     "Programming Language :: Python :: 3",
@@ -47,7 +48,7 @@ Repository = "https://github.com/gorgeousfish/hddid-py"
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
 release = ["build>=1.2", "twine>=5.0"]
-docs = ["sphinx>=7.0", "furo", "sphinx-autodoc-typehints", "myst-parser"]
+docs = ["sphinx>=7.0", "sphinx-rtd-theme", "sphinx-autodoc-typehints", "myst-parser"]
 
 [tool.setuptools]
 package-dir = {"" = "src"}

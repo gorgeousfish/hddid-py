@@ -9,15 +9,21 @@ from setuptools.command.sdist import sdist as _sdist
 _PUBLIC_RELEASE_MODULES = frozenset(
     {
         "__init__.py",
+        "_inference_common.py",
         "basis.py",
         "estimation.py",
         "estimator.py",
         "inference.py",
+        "inference_bootstrap.py",
+        "inference_nonparametric.py",
+        "inference_parametric.py",
         "inputs.py",
         "nuisance.py",
         "plotting.py",
         "results.py",
         "score.py",
+        "section6_loader.py",
+        "section6_roster.py",
         "splitting.py",
         "validation.py",
     }

@@ -32,7 +32,7 @@ source_suffix = {
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "api.md", "api-reference.md", "release-checklist.md", "release-diagnosis.md", "validation-lanes.md"]
 
-html_theme = "furo"
+html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
 
 intersphinx_mapping = {

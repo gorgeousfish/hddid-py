@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
+.venv-reviewer/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing/CI cache
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.benchmarks/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Byte-compiled
+*.so
+
+# Internal research probe tests (not public-facing)
+# These are development artifacts, not package tests
+tests/**/test_*phase7*
+tests/**/test_*trigger*
+tests/**/test_*monte_carlo_widening*
+tests/**/test_*same_seed*
+tests/**/test_*research_backfill*
+tests/**/test_*closeout*
+tests/**/test_*writeback*
+tests/**/test_*frontier*
+tests/**/test_*runtime_bridge*
+tests/**/test_*seed303*
+tests/**/test_*monte_carlo_paper_dgp2*
+tests/**/test_*outer_inference*
+tests/unit/test_*r_snapshot*
+tests/validation/test_*r_snapshot*
+tests/**/test_*automation_state*
+tests/**/test_*automation_memory*
+tests/**/test_*automation_role*
+tests/**/test_*automation_two_stage*
+tests/**/test_*next_milestone*
+tests/**/test_*milestone_archive*
+tests/**/test_*slack_and_readiness*
+tests/**/test_*validation_debt*
+tests/**/test_*validation_live*
+tests/**/test_*validation_matrix*
+tests/**/test_*v1_milestone*
+tests/**/test_*manuscript_*
+tests/**/test_*publication_*
+tests/**/test_*release_docs*
+tests/**/test_*release_matrix*
+tests/**/test_*release_artifact*
+tests/**/test_*release_checklist*
+tests/**/test_*release_maturity*
+tests/**/test_*section6_paper*
+tests/**/test_*section6_loader_object*
+tests/**/test_*section6_provenance*
+tests/**/test_*validation_real_data*
+tests/**/test_*validation_monte_carlo*
+tests/**/test_*validation_source_checkout*
+tests/**/test_*validation_runtime*
+tests/**/test_*monte_carlo_feature*
+tests/**/test_*monte_carlo_runtime*
+tests/**/test_*monte_carlo_smoke*
+tests/**/test_*real_data_asset*
+tests/**/test_*real_data_provenance*
+tests/**/test_*final_verification*
+tests/**/test_*repo_root_memory*

@@ -1,0 +1,76 @@
+{
+  "basis_degree": 4,
+  "basis_family": "trigonometric",
+  "confidence_level": 0.95,
+  "control_states": [
+    "Alabama",
+    "Georgia",
+    "Idaho",
+    "Indiana",
+    "Iowa",
+    "Kansas",
+    "Kentucky",
+    "Louisiana",
+    "Mississippi",
+    "Nebraska",
+    "New Mexico",
+    "North Dakota",
+    "Oklahoma",
+    "South Carolina",
+    "South Dakota",
+    "Tennessee",
+    "Texas",
+    "Utah",
+    "Virginia",
+    "Wyoming"
+  ],
+  "county_characteristics_count": 38,
+  "covariate_source_archive": "County and City Data Book: 2000",
+  "disallowed_shortcuts": [
+    "synthetic fallback",
+    "figure-only"
+  ],
+  "excluded_states": [
+    "New Hampshire",
+    "Pennsylvania"
+  ],
+  "lane_role_map": {
+    "median income": "population",
+    "population": "median income"
+  },
+  "linear_covariate_construction": "pairwise-baseline-characteristic-interactions",
+  "linear_covariate_count": 703,
+  "linear_covariate_count_formula": "choose(38, 2)",
+  "linear_covariate_source": "reported 703-covariate block; arithmetic matches pairwise interactions among 38 county-level characteristics",
+  "minimum_wage_timing_cross_check_source": "U.S. Department of Labor state minimum wage history",
+  "outcome_source": "BLS Local Area Unemployment Statistics (February unemployment rate)",
+  "sample_roster_source": "Callaway and Li (2019) application sample",
+  "sample_rule": {
+    "baseline_universe": "2006 federal-binding states",
+    "control_definition": "state minimum wage did not increase until the federal increase in July 2007",
+    "excluded_states": [
+      "New Hampshire",
+      "Pennsylvania"
+    ],
+    "treatment_definition": "state minimum wage increased by Q1 2007"
+  },
+  "time_window": "2005-2007",
+  "treated_state_count": 11,
+  "treated_states": [
+    "Arizona",
+    "Arkansas",
+    "Colorado",
+    "Maryland",
+    "Michigan",
+    "Missouri",
+    "Montana",
+    "Nevada",
+    "North Carolina",
+    "Ohio",
+    "West Virginia"
+  ],
+  "z_lanes": [
+    "median income",
+    "population"
+  ]
+}

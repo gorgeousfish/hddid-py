@@ -33,7 +33,7 @@ templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "api.md", "api-reference.md", "release-checklist.md", "release-diagnosis.md", "validation-lanes.md"]
 
 html_theme = "sphinx_rtd_theme"
-html_static_path = ["_static"]
+html_static_path = []
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3", None),

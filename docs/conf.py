@@ -5,8 +5,8 @@ import sys
 sys.path.insert(0, os.path.abspath("../src"))
 
 project = "hddid"
-copyright = "2020, Yang Ning, Sida Peng, Jing Tao"
-author = "Yang Ning, Sida Peng, Jing Tao"
+copyright = "2026, Xuanyu Cai, Wenli Xu"
+author = "Xuanyu Cai, Wenli Xu"
 
 extensions = [
     "sphinx.ext.autodoc",
